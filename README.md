@@ -1,2 +1,3 @@
 # MokupsBFGProject
-Body Fitness Gym Project  Integrantes  Gabriel Ricardo Amaya Huertas Cesar Nicolás Cardozo Rincón Juan Diego Molina
+Body Fitness Gym Project  
+Integrantes  Gabriel Ricardo Amaya Huertas Cesar Nicolás Cardozo Rincón Juan Diego Molina
