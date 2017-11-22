@@ -7,7 +7,7 @@ Integrantes  Gabriel Ricardo Amaya Huertas Cesar Nicolás Cardozo Rincón Juan D
 
 - [x] MK_002 Forgot Password: https://juandiegost.github.io/MokupsBFGProject/forgot_password.html
 
-- [x] MK_003 Agregar Entrenador: https://github.com/JuanDiegost/MokupsBFGProject/blob/master/agregarEntrenador.html
+- [x] MK_003 Agregar Entrenador: https://juandiegost.github.io/MokupsBFGProject/agregarEntrenador.html
 
 - [x] MK_004 Programas : https://juandiegost.github.io/MokupsBFGProject/programas.html
 
