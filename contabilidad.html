@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Starter Template for Bootstrap</title>
+  <title>Contabilidad</title>
 
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -15,7 +15,6 @@
 </head>
 
 <body>
-
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="row">
@@ -29,26 +28,25 @@
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav container-fluid">
           <li>
-            <a href="#">Alumnos
-                                </a>
+            <a href="#">Alumnos</a>
           </li>
-          <li class="active">
+          <li>
             <a href="#">Programas</a>
             <span class="sr-only">(current)</span>
           </li>
           <li>
             <a href="#">Entrenadores</a>
           </li>
-          <li>
+          <li class="active">
             <a href="#">Contabilidad</a>
           </li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li>
             <a href="#">
-                                    </span>Cerrar sesión
-                                    <span class="glyphicon glyphicon-log-in"></span>
-                                </a>
+              <span>Cerrar sesión</span>
+              <span class="glyphicon glyphicon-log-in"></span>
+            </a>
           </li>
         </ul>
 
@@ -57,9 +55,54 @@
     </div>
   </nav>
 
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-3 col-md-offset-9">
+        <!-- parte sueperior donde esta ell boton de agregar balance-->
+        <button type="button" class="btn btn-default btn-lg">
+                    <span class=" glyphicon glyphicon-plus" aria-hidden="true"></span> Agregar movimiento
+                </button>
+      </div>
+      <div class="row col-md-2 col-md-offset-1 panel panel-default"><!-- parte de la izquierda donde estan los filtros-->
+        <div class="panel-body">    <!-- panel-->
+          <div><!--titulo del panel-->
+            <h1 class="text-center">Filtros</h1>
+          </div>
+          <div><!--tipo-->
+            <div class="form-group">
+              <label for="tipo">Tipo</label>
+              <input id="tipo" type="text" class="form-control " name="type" placeholder="Tipo" required="" autofocus="">
+            </div>
+          </div>
+          <div><!--campo fedchas-->
+            <div>
+              <label for="fecha-inicio" class="">Inicio</label>
+              <input id="fecha-inicio" type="date" class="form-control " name="type" required="" autofocus="">
+            </div>
+            <div>
+              <label for="fecha-final" class="">Final</label>
+              <input id="fecha-final" type="date" class="form-control " name="dateEnd" required="" autofocus="">
+            </div>
+          </div>
+          <div><!--tipoContabilidad-->
+            <div class="form-group">
+              <label for="tipo">Balances</label>
+              <input id="tipo-Contabilidad" type="text" class="form-control " name="type" placeholder="Balances" required="" autofocus="">
+            </div>
+          </div>
+          <div class="row-m-t"><!--boton imprimir balance-->
+            <button class="btn btn-block btn-success" type="reset">Imprimir balance</button>
+          </div>
+        </div>
+      </div>
+      <div class="row col-md-8 col-md-offset-1">  <!-- parte de la derecha -->
+
+      </div>
+    </div>
+  </div>
 
   <!-- /.container-fluid -->
-  <div class="container row-m-t">
+  <!-- <div class="container row-m-t">
     <div class="row">
       <div class="col-md-3 col-md-offset-9">
         <button type="button" class="btn btn-default btn-lg">
@@ -209,7 +252,7 @@
 
       </table>
     </div>
-  </div>
+  </div> -->
 
   <!-- /.container -->
 
