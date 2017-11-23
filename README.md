@@ -11,4 +11,4 @@ Integrantes  Gabriel Ricardo Amaya Huertas Cesar Nicolás Cardozo Rincón Juan D
 
 - [x] MK_004 Programas : https://juandiegost.github.io/MokupsBFGProject/programas.html
 
-- [x] MK_006 Contabilidad : estoy dandole
+- [ ] MK_006 Contabilidad : estoy dandole
