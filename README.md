@@ -15,6 +15,6 @@ LISTA M
 
 - [x] MK_004 Programas : https://juandiegost.github.io/MokupsBFGProject/programas.html
 
-- [x] MK_006 Contabilidad : https://github.com/JuanDiegost/MokupsBFGProject/blob/master/contabilidad.html
+- [x] MK_006 Contabilidad, MK_016 agregarMovimiento : https://github.com/JuanDiegost/MokupsBFGProject/blob/master/contabilidad.html
 
 - [ ] MK_007 Lista de alumnos : https://juandiegost.github.io/MokupsBFGProject/alumnos.html aun dandole :sleeping:
