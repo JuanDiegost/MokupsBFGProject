@@ -19,7 +19,7 @@ LISTA M
 
 - [x] MK_006 Contabilidad : https://github.com/JuanDiegost/MokupsBFGProject/blob/master/contabilidad.html
 
-- [ ] MK_007 Lista de alumnos : https://juandiegost.github.io/MokupsBFGProject/alumnos.html aun dandole :sleeping:
+- [ ] MK_007 Lista de alumnos : https://juandiegost.github.io/MokupsBFGProject/alumnos.html agregar suscripción
 
 - [ ] MK_008 RegistroSuscripcion : dialogo dentro de MK_007
 
