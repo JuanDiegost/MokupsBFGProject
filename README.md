@@ -1,8 +1,8 @@
 # MokupsBFGProject
 Body Fitness Gym Project  
 Integrantes  
--Gabriel Ricardo Amaya Huertas 
--Cesar Nicolás Cardozo Rincón 
+-Gabriel Ricardo Amaya Huertas
+-Cesar Nicolás Cardozo Rincón
 -Juan Diego Molina Muñoz
 
 LISTA M
@@ -15,7 +15,6 @@ LISTA M
 
 - [x] MK_004 Programas : https://juandiegost.github.io/MokupsBFGProject/programas.html
 
-- [ ] MK_006 Contabilidad : estoy dandole
+- [x] MK_006 Contabilidad : https://github.com/JuanDiegost/MokupsBFGProject/blob/master/contabilidad.html
 
 - [ ] MK_007 Lista de alumnos : https://juandiegost.github.io/MokupsBFGProject/alumnos.html aun dandole :sleeping:
-
