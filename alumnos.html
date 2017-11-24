@@ -18,14 +18,22 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-1 col-xs-4">
-                    <img src="img/logo.png" class="img-thumbnail" alt="Responsive image">
+                <div class="collapse navbar-collapse">
+                    <div class="col-md-1 col-xs-2 col-sm-2">
+                        <img src="img/logo.png" class="img-responsive img-thumbnail" alt="Responsive image">
+                    </div>
                 </div>
-                <div class="col-md-6 col-md-offset-3">
+                <div class="col-md-6 col-md-offset-3 collapse navbar-collapse">
                     <h3>Body Fitnes Gym Duitama LTDA</h3>
                 </div>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
+                    <span class="sr-only">Alternar menu</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
             </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" id="navbar1">
                 <ul class="nav navbar-nav container-fluid">
                     <li class="active">
                         <a href="#">Alumnos
@@ -464,14 +472,14 @@
                         <label for="sel1">Suscripcion:</label>
                         <select class="form-control" id="sel1">
                             <option>Spinning</option>
-                            <option>Targeta Ejecutiva</option>                            
+                            <option>Targeta Ejecutiva</option>
                             <option>Zumba</option>
                             <option>Entrenamiento Personalizado</option>
                         </select>
                         <div class="form-group">
-                                <label for="date" class="row-m-t">Fecha Finalización: </label>
-                                <input id="date" type="date" class="form-control" name="username" placeholder="Email Address" required="" autofocus="" />
-                              </div>
+                            <label for="date" class="row-m-t">Fecha Finalización: </label>
+                            <input id="date" type="date" class="form-control" name="username" placeholder="Email Address" required="" autofocus="" />
+                        </div>
                     </div>
                 </form>
                 <div class="modal-footer">
