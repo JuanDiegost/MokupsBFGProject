@@ -25,11 +25,11 @@ LISTA M
 
 - [x] MK_009 Detalles alumnos :  dialogo dentro de MK_007
 
-- [x] MK_010 historialMedico :  empeze a darle al historial medico 
+- [x] MK_010 historialMedico :  https://juandiegost.github.io/MokupsBFGProject/FormularioHistorialMedicoUno.html
 
 - [x] MK_012 Inicio :   https://juandiegost.github.io/MokupsBFGProject/inicio.html
 
-- [x] MK_013 Horarios :  EN MK_012 INICIO ESTA 
+- [x] MK_013 Horarios :  EN MK_012 INICIO ESTA
 
 - [x] MK_014 Servicios :  EN MK_012 INICIO ESTA
 
