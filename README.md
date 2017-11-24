@@ -17,7 +17,7 @@ LISTA M
 
 - [x] MK_005 Detalles y edicion programas : esta dentro MK_004
 
-- [x] MK_006 Contabilidad : https://github.com/JuanDiegost/MokupsBFGProject/blob/master/contabilidad.html
+- [x] MK_006 Contabilidad : https://juandiegost.github.io/MokupsBFGProject/contabilidad.html
 
 - [ ] MK_007 Lista de alumnos : https://juandiegost.github.io/MokupsBFGProject/alumnos.html agregar suscripción
 
@@ -25,7 +25,7 @@ LISTA M
 
 - [ ] MK_009 Detalles alumnos :  dialogo dentro de MK_007
 
-- [ ] MK_010 historialMedico :  
+- [ ] MK_010 historialMedico :  empeze a darle al historial medico 
 
 - [ ] MK_012 Inicio :  
 
