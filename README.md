@@ -25,7 +25,7 @@ LISTA M
 
 - [x] MK_009 Detalles alumnos :  dialogo dentro de MK_007
 
-- [ ] MK_010 historialMedico :  empeze a darle al historial medico 
+- [x] MK_010 historialMedico :  empeze a darle al historial medico 
 
 - [ ] MK_012 Inicio :   Empeze a darle
 
