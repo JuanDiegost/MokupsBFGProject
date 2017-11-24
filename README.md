@@ -19,15 +19,15 @@ LISTA M
 
 - [x] MK_006 Contabilidad : https://juandiegost.github.io/MokupsBFGProject/contabilidad.html
 
-- [ ] MK_007 Lista de alumnos : https://juandiegost.github.io/MokupsBFGProject/alumnos.html agregar suscripción
+- [x] MK_007 Lista de alumnos : https://juandiegost.github.io/MokupsBFGProject/alumnos.html
 
-- [ ] MK_008 RegistroSuscripcion : dialogo dentro de MK_007
+- [x] MK_008 RegistroSuscripcion : dialogo dentro de MK_007
 
-- [ ] MK_009 Detalles alumnos :  dialogo dentro de MK_007
+- [x] MK_009 Detalles alumnos :  dialogo dentro de MK_007
 
 - [ ] MK_010 historialMedico :  empeze a darle al historial medico 
 
-- [ ] MK_012 Inicio :  
+- [ ] MK_012 Inicio :   Empeze a darle
 
 - [ ] MK_013 Horarios :  
 
