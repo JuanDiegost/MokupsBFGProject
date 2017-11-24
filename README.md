@@ -27,8 +27,7 @@ LISTA M
 
 - [ ] MK_010 historialMedico :  empeze a darle al historial medico 
 
-- [ ] MK_012 Inicio :   Empeze a darle
-
+- [ ] MK_012 Inicio :   https://juandiegost.github.io/MokupsBFGProject/inicio.html
 - [ ] MK_013 Horarios :  
 
 - [ ] MK_014 Servicios :  
