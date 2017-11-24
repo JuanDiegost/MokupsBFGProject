@@ -18,16 +18,16 @@
 
     <header>
         <!-- Barra navegacion -->
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-fixed-top navbar-default ">
             <div class="navbar-header">
                 <div class="row text-center ">
                     <div class="collapse navbar-collapse">
                         <div class="col-md-1 col-xs-2 col-sm-2">
-                            <img src="img/logo.png" class="img-responsive img-thumbnail" alt="Responsive image">
+                            <img src="img/logo.png" class="img-responsive" alt="Responsive image">
                         </div>
-                    </div>
-                    <div class="col-md-6 col-sm-10 col-xs-12 col-md-offset-2 collapse navbar-collapse">
-                        <h3>Body Fitnes Gym Duitama LTDA</h3>
+                        <div class="col-md-6 col-xs-12 col-md-offset-2 ">
+                            <h3>Body Fitnes Gym Duitama LTDA</h3>
+                        </div>
                     </div>
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
                         <span class="sr-only">Alternar menu</span>
@@ -39,18 +39,18 @@
                 <div class="collapse navbar-collapse" id="navbar1">
                     <ul class="nav navbar-nav">
                         <li class="active">
-                            <a href="#">Inicio
+                            <a id="btn-inicio" href="#">Inicio
                             </a>
                         </li>
                         <li>
-                            <a href="#">Servicios</a>
+                            <a id="btn-servicios" href="#">Servicios</a>
                             <span class="sr-only">(current)</span>
                         </li>
                         <li>
-                            <a href="#">Horario</a>
+                            <a id="btn-horario" href="#">Horario</a>
                         </li>
                         <li>
-                            <a href="#">Acerca De</a>
+                            <a id="btn-contacto" href="#">Acerca De</a>
                         </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
@@ -68,10 +68,10 @@
     </header>
     <!-- /.container-fluid -->
     <section class="main">
-        <div class="container row-m-t">
+        <div class="container row-m-t ">
             <div class="row row-m-t">
-                <div class="col-md-12">
-                    <h2>Noticias</h2>
+                <div class="col-md-12 margin-top">
+                    <h2 id="inicio" class="margin-top">Noticias</h2>
                     <hr>
                     <div id="slideshow1" class="carousel slide" data-ride="carousel">
                         <!---indicadores-->
@@ -111,11 +111,11 @@
                     </div>
                 </div>
             </div>
-
+            <hr>
             <div class="row">
                 <div class="col-md-12">
                     <div class="page-header">
-                        <h3 class="text-center">Servicios</h3>
+                        <h3 id="servicios" class="text-center">Servicios</h3>
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-3">
@@ -128,6 +128,9 @@
                             <p>Una serie de prácticas, técnicas, metodologías y herramientas que utiliza un entrenador personal
                                 calificado para definir un marco de trabajo con un alumno de acuerdo a las necesidades y
                                 aspiraciones que tenga.</p>
+                            <p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalDetalles">Detalles</button>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -140,6 +143,9 @@
                             <h3>Acondicionamiento físico general</h3>
                             <p>En este servicio el alumno recibe el acompañamiento del personal calificado en determinada actividad
                                 que le permita ejecutarla de manera correcta para obtener los resultados deseados.
+                            </p>
+                            <p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalDetalles">Detalles</button>
                             </p>
                         </div>
                     </div>
@@ -154,6 +160,9 @@
                             <p>Corresponde a un ejercicio aeróbico que involucra piernas y brazos y que se realiza utilizando
                                 una bicicleta estática y que ayuda a la zona cardio-vascular del cuerpo. Esta actividad es
                                 desarrollada en grupos de 15 a 20 personas con una duración de una hora u hora y media.</p>
+                            <p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalDetalles">Detalles</button>
+                            </p>
                         </div>
                         </a>
                     </div>
@@ -168,6 +177,9 @@
                             <p>Son ejercicios de intensidad media-alta que son útiles para el sistema cardio-vascular y que
                                 involucran baile, saltos y estiramientos. El gimnasio ofrece diferentes variaciones de aeróbicos
                                 con música como lo son Danzika, George Box, Step Dance, Insanity y Rumba Aeróbica.</p>
+                            <p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalDetalles">Detalles</button>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -182,6 +194,9 @@
                             <p>Corresponde a un servicio ofrecido para los aficionados al “Mountain Bike” (Ciclismo de montaña),
                                 que consiste en circuitos intermunicipales y veredales que duran entre 3 y 6 horas con el
                                 equipo Guepardex del gimnasio.</p>
+                            <p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalDetalles">Detalles</button>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -194,14 +209,17 @@
                             <h3>Tarjetas ejecutivas</h3>
                             <p>Se presenta el modelo de suscripción por tarjetas ejecutivas, estas son tarjetas que se pueden
                                 recargar 5,10,15,20 o 30 sesiones para posteriormente ser utilizadas</p>
+                            <p>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalDetalles">Detalles</button>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-
+            <hr>
             <div class="row">
                 <div class="col-md-12">
-                    <h3 class="text-center">Horario</h3>
+                    <h3 id="horario" class="text-center">Horario</h3>
                 </div>
             </div>
             <div class="row margin-top-table table-responsive">
@@ -278,10 +296,10 @@
 
                 </table>
             </div>
-
+            <hr>
             <div class="row margin-top-table">
                 <div class="col-md-12 col-xs-12">
-                    <h3 class="text-left">Acerca De</h3>
+                    <h3 id="contacto" class="text-left">Acerca De</h3>
                 </div>
                 <div class="col-md-6 col-xs-12">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5613.300417468981!2d-73.03477092042758!3d5.827006523658635!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e6a3f0b3e141de9%3A0xe913f40ba9b8fff2!2sParque+El+Carmen!5e0!3m2!1ses-419!2sco!4v1511492974622"
@@ -299,6 +317,47 @@
 
         </div>
     </section>
+
+    <!-- Modal Detalles-->
+    <div id="modalDetalles" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Entrenamiento Personalizado</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="thumbnail">
+                        <a href="#">
+                            <img src="img/entrenamientoPersonalizado.jpeg" alt="">
+                        </a>
+                        <div class="caption">
+                            <p>Una serie de prácticas, técnicas, metodologías y herramientas que utiliza un entrenador personal
+                                calificado para definir un marco de trabajo con un alumno de acuerdo a las necesidades y
+                                aspiraciones que tenga.
+                                <br>El acompañamiento del entrenador genera exigencia, cumplimiento, seguridad y resultados.
+                                Es clave para las personas que necesitan seguimiento y motivación adicional. Con un entrenador
+                                personalizado aprendes nuevas técnicas, ejercicios y cómo usar los diferentes equipos de
+                                entrenamiento, de forma variada y siempre enfocado a tus objetivos.</p>
+                            <p>
+                                <h4>Horario: </h4>
+                                <p>Jueves De 10:00 am a 12:00pm ,
+                                    <br> Viernes de 4:00 pm a 6:00 pm
+                                    <br> SabadoS de 2:00 pm a 4:00 pm</p>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Modal Detalles-->
 
     <footer>
         <div class="container">
@@ -322,13 +381,9 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script>
-        window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')
-    </script>
-    <script src="js/vendor/popper.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/inicio.js"></script>
 </body>
 
 </html>

@@ -33,7 +33,7 @@ LISTA M
 
 - [x] MK_014 Servicios :  EN MK_012 INICIO ESTA
 
-- [ ] MK_015 Detalles Servicios :  
+- [x] MK_015 Detalles Servicios :  EN MK_012 INICIO ESTA
 
 - [x] MK_016 AgregarMovimiento : Dialogo dentro de MK_006
 
@@ -41,7 +41,7 @@ LISTA M
 
 - [ ] MK_018 detalles/editar Entrenadores : Dialogo dentro de MK_017
 
-- [ ] MK_019 Progresos Alumnos :
+- [ ] MK_019 Progresos Alumnos : EMPECE A DARLE :tired_face:
 
 - [ ] MK_020 Agregar Progresos : Dialogo dentro de MK_019
 
