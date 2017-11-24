@@ -37,7 +37,7 @@ LISTA M
 
 - [x] MK_016 AgregarMovimiento : Dialogo dentro de MK_006
 
-- [ ] MK_017 Lista Entrenadores :
+- [ ] MK_017 Lista Entrenadores : empece a darle
 
 - [ ] MK_018 detalles/editar Entrenadores : Dialogo dentro de MK_017
 
