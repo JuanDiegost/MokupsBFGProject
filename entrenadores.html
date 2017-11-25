@@ -35,16 +35,16 @@
             </div>
             <div class="collapse navbar-collapse" id="navbar1">
                 <ul class="nav navbar-nav container-fluid">
-                    <li class="active">
-                        <a href="#">Alumnos
+                    <li>
+                        <a href="alumnos.html">Alumnos
                         </a>
                     </li>
                     <li>
                         <a href="programas.html">Programas</a>
                         <span class="sr-only">(current)</span>
                     </li>
-                    <li>
-                        <a href="#">Entrenadores</a>
+                    <li class="active">
+                        <a href="entrenadores.html">Entrenadores</a>
                     </li>
                     <li>
                         <a href="contabilidad.html">Contabilidad</a>
@@ -64,8 +64,187 @@
         </div>
     </nav>
     <!--barra navegacion-->
+    <div class="alert alert-danger alert-dismissable fade in none"><!--alerta de borrar-->
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Cuidado!</strong> En realidad deseas
+        <strong>Borrar</strong> este entrenador?
+    </div>
+    <!-- /.container-fluid -->
+    <div class="container row-m-t">
+        <div class="row">
+            <div class="col-md-6">
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Buscar">
+                    </div>
+                    <button type="submit" class="btn btn-default">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </form>
+            </div>
+            <div class="col-md-3 col-xs-6 col-md-offset-2 col-xs-offset-1">
+                <a class="btn btn-default btn-lg" href="agregarEntrenador.html">
+                    <span class=" glyphicon glyphicon-plus" aria-hidden="true"></span> Registrar Nuevo Entrenador
+                </a>
+            </div>
+        </div>
+        <div class="table-responsive margin-top-table">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Telefono</th>
+                        <th>Programas</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Raul Romero</td>
+                        <td>312 321 1232</td>
+                        <td>Entrenador general</td>
+                        <td>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalDet">
+                                <span class="glyphicon glyphicon-eye-open" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalDel">
+                                <span class="glyphicon glyphicon-trash" aria-hidden="true">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Raul Cardozo</td>
+                        <td>310 249 5583</td>
+                        <td>Entrenador personal, spinning, aerobicos</td>
+                        <td>
+                            <a class="btn-lg" href="historial.html">
+                                <span class="glyphicon glyphicon-eye-open" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalDel">
+                                <span class="glyphicon glyphicon-trash" aria-hidden="true">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Cristian Giovanni Cabra</td>
+                        <td>310 229 5213</td>
+                        <td>Danzika, cardio-box- step-dance</td>
+                        <td>
+                            <a class="btn-lg" href="historial.html">
+                                <span class="glyphicon glyphicon-eye-open" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalDel">
+                                <span class="glyphicon glyphicon-trash" aria-hidden="true">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Leonardo Barrera</td>
+                        <td>310 129 4442</td>
+                        <td>Rumba aeróbica</td>
+                        <td>
+                            <a class="btn-lg" href="historial.html">
+                                <span class="glyphicon glyphicon-eye-open" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalDel">
+                                <span class="glyphicon glyphicon-trash" aria-hidden="true">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Andrea pineda</td>
+                        <td>321 329 3213</td>
+                        <td>Zumba</td>
+                        <td>
+                            <a class="btn-lg" href="historial.html">
+                                <span class="glyphicon glyphicon-eye-open" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalDel">
+                                <span class="glyphicon glyphicon-trash" aria-hidden="true">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Yeison Torres</td>
+                        <td>321 249 5003</td>
+                        <td>rumba aeróbica</td>
+                        <td>
+                            <a class="btn-lg" href="historial.html">
+                                <span class="glyphicon glyphicon-eye-open" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalDel">
+                                <span class="glyphicon glyphicon-trash" aria-hidden="true">
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 
-    <!--mañana le sigo dando a esto-->
+    <!-- Modal Eliminar-->
+    <div id="modalDel" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Atención</h4>
+                </div>
+                <div class="modal-body alert alert-danger">
+                    <p>Estas seguro que deseas
+                        <strong>Eliminar </strong> a Raul Romero?</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Eliminar</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modalDet" class="modal fade" role="dialog">
+      <!--Dialogo detalles de un item de contabilidad-->
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Detalles entrenador</h4>
+          </div>
+          <div class="modal-body">
+            <div class="row row-m-t">
+              <div class="col-xs-12 col-md-11">
+                <form>
+                  <div class="form-group">
+                    <label for="comment">Descripción:</label>
+                    <textarea class="form-control" rows="5" id="comment">Entrada mensualidad de el ing. Tobias por el mes de Diciembre, 2016.</textarea>
+                  </div>
+                  <div class="form-group">
+                    <label for="valor">Valor:</label>
+                    <textarea class="form-control" rows="1" id="valor">$100.000.oo</textarea>
+                  </div>
+                  <div class="form-group">
+                    <label for="date" class="row-m-t">Fecha</label>
+                    <input id="date" type="date" class="form-control" name="date" required="" autofocus="" />
+                    <!--Poner un placeholder de fecha-->
+                  </div>
+                </form>
+              </div>
+
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Listo</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
