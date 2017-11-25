@@ -13,23 +13,25 @@ LISTA M
 
 - [x] MK_003 Agregar Entrenador: https://juandiegost.github.io/MokupsBFGProject/agregarEntrenador.html
 
-- [x] MK_003.5 Agregar alumno: https://juandiegost.github.io/MokupsBFGProject/agregarAlumno.html //falta arreglar lo que sea que le falte
+- [x] MK_003.5 Agregar alumno: https://juandiegost.github.io/MokupsBFGProject/agregarAlumno.html
 
 - [x] MK_004 Programas : https://juandiegost.github.io/MokupsBFGProject/programas.html
 
+- [ ] MK_004.5 Programas : crear programa
+
 - [x] MK_005 Detalles y edicion programas : esta dentro MK_004
 
-- [x] MK_006 Contabilidad : https://juandiegost.github.io/MokupsBFGProject/contabilidad.html //hacer alerta a la hora de borrar
+- [x] MK_006 Contabilidad : https://juandiegost.github.io/MokupsBFGProject/contabilidad.html
 
 - [x] MK_007 Lista de alumnos : https://juandiegost.github.io/MokupsBFGProject/alumnos.html
 
 - [x] MK_008 RegistroSuscripcion : dialogo dentro de MK_007
 
-- [ ] MK_009 Detalles alumnos :  dialogo dentro de MK_007
+- [x] MK_009 Detalles alumnos :  dialogo dentro de MK_007
 
 - [x] MK_010 historialMedico :  https://juandiegost.github.io/MokupsBFGProject/FormularioHistorialMedicoUno.html
 
-- [x] MK_012 Inicio :   https://juandiegost.github.io/MokupsBFGProject/inicio.html
+- [x] MK_012 Inicio :   https://juandiegost.github.io/MokupsBFGProject/inicio.html //hay que arreglar la parte de pestañas (ni puta idea como)
 
 - [x] MK_013 Horarios :  EN MK_012 INICIO ESTA
 

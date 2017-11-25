@@ -52,7 +52,7 @@
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#">
+                        <a href="login.html">
                             </span>Cerrar sesión
                             <span class="glyphicon glyphicon-log-in"></span>
                         </a>
@@ -290,7 +290,7 @@
                             <a class="btn-lg" data-toggle="modal" data-target="#modalDet">
                                 <span class="glyphicon glyphicon-eye-open" aria-hidden="true">
                             </a>
-                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#myModalEditStudent">
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalSuscripcion">
                                 <span class="glyphicon glyphicon-plus" aria-hidden="true">
                             </a>
                             <a class="btn-lg" href="#" data-toggle="modal" data-target="#myModalEditStudent">
@@ -412,7 +412,7 @@
                   <input id="programas" type="text" class="form-control " name="badHabits" value="Dr. Enrrique Quevedo / 3106194848" required="" autofocus="">
                 </div>
                 <div class="form-group">
-                  <label for="programas">En caso de emerjecia llamar a</label>
+                  <label for="programas">En caso de emergencia llamar a</label>
                   <input id="programas" type="text" class="form-control " name="badHabits" value="Camila Uribe, esposa - 3135562548" required="" autofocus="">
                 </div>
                 <div class="form-group">
@@ -504,14 +504,17 @@
                                         <input id="date" type="date" value="25/12/2017" class="form-control" name="date" required="" autofocus="" />
                                     </div>
                                 </form>
+                                <div class="row-m-t">
+                                  <button type="button" class="btn btn-info btn-block" ><a href="FormularioHistorialMedicoUno.html">Editar historial medico</a></button>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="row modal-footer">
-                        <div class="col-md-5 col-xs-6">
+                        <div class="col-md-5 col-xs-6 row-m-t">
                             <button type="button" class="btn btn-primary" data-dismiss="modal">Guardar</button>
                         </div>
-                        <div class="col-md-5 col-xs-4">
+                        <div class="col-md-5 col-xs-4 row-m-t">
                             <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
                         </div>
                     </div>
@@ -548,10 +551,10 @@
 
     <!-- Modal Agregar suscripcion-->
     <div id="modalSuscripcion" class="modal fade" role="dialog">
-        <div class="modal-dialog">
+        <div class="modal-dialog row">
 
             <!-- Modal content-->
-            <div class="modal-content">
+            <div class="modal-content col-md-12 col-md-offset-1">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <h4 class="modal-title">Agregar Suscripcion</h4>

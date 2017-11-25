@@ -51,7 +51,7 @@
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li>
-            <a href="#">
+            <a href="login.html">
               <span>Cerrar sesión</span>
               <span class="glyphicon glyphicon-log-in"></span>
             </a>
@@ -62,7 +62,6 @@
       <!-- /.navbar-collapse -->
     </div>
   </nav>
-
   <div class="container-fluid">
     <div class="row">
       <div class="col-md-3 col-md-offset-9">
@@ -147,7 +146,7 @@
                   <a class="btn-lg" href="#" data-toggle="modal" data-target="#myModalDetails">
                     <span class="glyphicon glyphicon-eye-open" aria-hidden="true">
                   </a>
-                  <a class="btn-lg" href="#">
+                  <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalDel">
                     <span class="glyphicon glyphicon-trash" aria-hidden="true">
                   </a>
                 </td>
@@ -161,7 +160,7 @@
                   <a class="btn-lg" href="#" data-toggle="modal" data-target="#myModalDetails">
                     <span class="glyphicon glyphicon-eye-open" aria-hidden="true">
                   </a>
-                  <a class="btn-lg" href="#">
+                  <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalDel">
                     <span class="glyphicon glyphicon-trash" aria-hidden="true">
                   </a>
                 </td>
@@ -175,7 +174,7 @@
                     <a class="btn-lg" href="#" data-toggle="modal" data-target="#myModalDetails">
                       <span class="glyphicon glyphicon-eye-open" aria-hidden="true">
                     </a>
-                    <a class="btn-lg" href="#">
+                    <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalDel">
                       <span class="glyphicon glyphicon-trash" aria-hidden="true">
 
                     </a>
@@ -190,7 +189,7 @@
                   <a class="btn-lg" href="#" data-toggle="modal" data-target="#myModalDetails">
                     <span class="glyphicon glyphicon-eye-open" aria-hidden="true">
                   </a>
-                  <a class="btn-lg" href="#">
+                  <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalDel">
                     <span class="glyphicon glyphicon-trash" aria-hidden="true">
 
                   </a>
@@ -205,7 +204,7 @@
                   <a class="btn-lg" href="#" data-toggle="modal" data-target="#myModalDetails">
                     <span class="glyphicon glyphicon-eye-open" aria-hidden="true">
                   </a>
-                  <a class="btn-lg" href="#">
+                  <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalDel">
                     <span class="glyphicon glyphicon-trash" aria-hidden="true">
 
                   </a>
@@ -220,7 +219,7 @@
                   <a class="btn-lg" href="#" data-toggle="modal" data-target="#myModalDetails">
                     <span class="glyphicon glyphicon-eye-open" aria-hidden="true">
                   </a>
-                  <a class="btn-lg" href="#">
+                  <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalDel">
                     <span class="glyphicon glyphicon-trash" aria-hidden="true">
 
                   </a>
@@ -235,7 +234,7 @@
                   <a class="btn-lg" href="#" data-toggle="modal" data-target="#myModalDetails">
                     <span class="glyphicon glyphicon-eye-open" aria-hidden="true">
                   </a>
-                  <a class="btn-lg" href="#">
+                  <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalDel">
                     <span class="glyphicon glyphicon-trash" aria-hidden="true">
 
                   </a>
@@ -250,7 +249,7 @@
                     <a class="btn-lg" href="#" data-toggle="modal" data-target="#myModalDetails">
                       <span class="glyphicon glyphicon-eye-open" aria-hidden="true">
                     </a>
-                    <a class="btn-lg" href="#">
+                    <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalDel">
                       <span class="glyphicon glyphicon-trash" aria-hidden="true">
 
                     </a>
@@ -298,6 +297,7 @@
       <!--fin Paginacion -->
     </div>
   </div>
+
   <!-- Modal -->
   <div id="myModalDetails" class="modal fade" role="dialog">
     <!--Dialogo detalles de un item de contabilidad-->
@@ -337,6 +337,7 @@
 
     </div>
   </div>
+
   <!-- Modal -->
   <div id="myModalAddMovement" class="modal fade" role="dialog">
     <!--Dialogo agregar movimiento-->
@@ -390,9 +391,32 @@
           </div>
         </div>
       </div>
-
     </div>
   </div>
+
+    <!-- Modal Eliminar-->
+  <div id="modalDel" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+              <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Atención</h4>
+              </div>
+              <div class="modal-body alert alert-danger">
+                  <p>Estas seguro que deseas
+                      <strong>Eliminar </strong> este movimiento?</p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal">Eliminar</button>
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+              </div>
+          </div>
+
+      </div>
+  </div>
+
   <!-- Bootstrap core JavaScript
     ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
