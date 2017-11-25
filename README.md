@@ -45,7 +45,7 @@ LISTA M
 
 - [x] MK_018 detalles/editar Entrenadores : Dialogo dentro de MK_017
 
-- [ ] MK_019 Progresos Alumnos : EMPECE A DARLE :tired_face:
+- [ ] MK_019 Progresos Alumnos :  https://juandiegost.github.io/MokupsBFGProject/progresos.html :tired_face:
 
 - [ ] MK_020 Agregar Progresos : Dialogo dentro de MK_019
 
