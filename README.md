@@ -48,3 +48,7 @@ LISTA M
 - [x] MK_020 Agregar Progresos : Dialogo dentro de MK_019
 
 - [ ] MK_021 MK_022 Mensajes de error y confirmacion : definir
+
+- [ ] arreglar responsividad, solo esta bonito seguro en md, toca para xs y muere
+
+- [ ] ponerle estilos a todo.
