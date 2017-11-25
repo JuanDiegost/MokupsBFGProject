@@ -1,0 +1,603 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Alumnos</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="collapse navbar-collapse">
+                    <div class="col-md-1 col-xs-2 col-sm-2">
+                        <img src="img/logo.png" class="img-responsive" alt="Responsive image">
+                    </div>
+                    <div class="col-md-6 col-xs-12 col-md-offset-2 ">
+                        <h3>Body Fitnes Gym Duitama LTDA</h3>
+                    </div>
+                </div>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
+                    <span class="sr-only">Alternar menu</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar1">
+                <ul class="nav navbar-nav container-fluid">
+                    <li class="active">
+                        <a href="#">Alumnos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="programas.html">Programas</a>
+                        <span class="sr-only">(current)</span>
+                    </li>
+                    <li>
+                        <a href="entrenadores.html">Entrenadores</a>
+                    </li>
+                    <li>
+                        <a href="contabilidad.html">Contabilidad</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="login.html">
+                            </span>Cerrar sesión
+                            <span class="glyphicon glyphicon-log-in"></span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+    </nav>
+
+    <div class="alert alert-danger alert-dismissable fade in none">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>Cuidado!</strong> En realidad deseas
+        <strong>Borrar</strong> este Programa.
+    </div>
+
+    <!-- /.container-fluid -->
+    <div class="container row-m-t">
+        <div class="row">
+            <div class="col-md-6">
+                <form class="navbar-form navbar-left" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Buscar">
+                    </div>
+                    <button type="submit" class="btn btn-default">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </form>
+            </div>
+            <div class="col-md-3 col-xs-6 col-md-offset-2 col-xs-offset-1">
+                <a class="btn btn-default btn-lg" href="agregarAlumno.html">
+                    <span class=" glyphicon glyphicon-plus" aria-hidden="true"></span> Registrar Nuevo Usuario
+                </a>
+            </div>
+        </div>
+        <div class="table-responsive margin-top-table">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Numero de Identificación</th>
+                        <th>Tipo de subscripción</th>
+                        <th>Estado de suscripción</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pepe Perez</td>
+                        <td>623623892</td>
+                        <td>Targeta Ejecutiva</td>
+                        <td>Activa</td>
+                        <td>
+                            <a class="btn-lg" data-toggle="modal" data-target="#modalDet">
+                                <span class="glyphicon glyphicon-eye-open" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalSuscripcion">
+                                <span class="glyphicon glyphicon-plus" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#myModalEditStudent">
+                                <span class="glyphicon glyphicon-pencil" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalDel">
+                                <span class="glyphicon glyphicon-trash" aria-hidden="true">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Guillermo Martines</td>
+                        <td>343254234</td>
+                        <td>Targeta Ejecutiva</td>
+                        <td>Activa</td>
+                        <td>
+                            <a class="btn-lg" data-toggle="modal" data-target="#modalDet">
+                                <span class="glyphicon glyphicon-eye-open" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalSuscripcion">
+                                <span class="glyphicon glyphicon-plus" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#myModalEditStudent">
+                                <span class="glyphicon glyphicon-pencil" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalDel">
+                                <span class="glyphicon glyphicon-trash" aria-hidden="true">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Jose Torres</td>
+                        <td>243455544</td>
+                        <td>Spinning</td>
+                        <td>No Activa</td>
+                        <td>
+                            <a class="btn-lg" data-toggle="modal" data-target="#modalDet">
+                                <span class="glyphicon glyphicon-eye-open" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalSuscripcion">
+                                <span class="glyphicon glyphicon-plus" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#myModalEditStudent">
+                                <span class="glyphicon glyphicon-pencil" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalDel">
+                                <span class="glyphicon glyphicon-trash" aria-hidden="true">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Felipe Ramos</td>
+                        <td>3245453434</td>
+                        <td>Targeta Ejecutiva</td>
+                        <td>Activa</td>
+                        <td>
+                            <a class="btn-lg" data-toggle="modal" data-target="#modalDet">
+                                <span class="glyphicon glyphicon-eye-open" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalSuscripcion">
+                                <span class="glyphicon glyphicon-plus" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#myModalEditStudent">
+                                <span class="glyphicon glyphicon-pencil" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalDel">
+                                <span class="glyphicon glyphicon-trash" aria-hidden="true">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Laura Rodriges</td>
+                        <td>23344545433</td>
+                        <td>Targeta Ejecutiva</td>
+                        <td>Activa</td>
+                        <td>
+                            <a class="btn-lg" data-toggle="modal" data-target="#modalDet">
+                                <span class="glyphicon glyphicon-eye-open" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalSuscripcion">
+                                <span class="glyphicon glyphicon-plus" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#myModalEditStudent">
+                                <span class="glyphicon glyphicon-pencil" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalDel">
+                                <span class="glyphicon glyphicon-trash" aria-hidden="true">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Claudia Espitia</td>
+                        <td>34343234343</td>
+                        <td>Targeta Ejecutiva</td>
+                        <td>No Activa</td>
+                        <td>
+                            <a class="btn-lg" data-toggle="modal" data-target="#modalDet">
+                                <span class="glyphicon glyphicon-eye-open" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalSuscripcion">
+                                <span class="glyphicon glyphicon-plus" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#myModalEditStudent">
+                                <span class="glyphicon glyphicon-pencil" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalDel">
+                                <span class="glyphicon glyphicon-trash" aria-hidden="true">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Estebas Huertas</td>
+                        <td>43665567643</td>
+                        <td>Entrenamiento Personalizado</td>
+                        <td>Activa</td>
+                        <td>
+                            <a class="btn-lg" data-toggle="modal" data-target="#modalDet">
+                                <span class="glyphicon glyphicon-eye-open" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalSuscripcion">
+                                <span class="glyphicon glyphicon-plus" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#myModalEditStudent">
+                                <span class="glyphicon glyphicon-pencil" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalDel">
+                                <span class="glyphicon glyphicon-trash" aria-hidden="true">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Felipe Cadena</td>
+                        <td>7645543334</td>
+                        <td>Entrenamiento Personalizado</td>
+                        <td>Activa</td>
+                        <td>
+                            <a class="btn-lg" data-toggle="modal" data-target="#modalDet">
+                                <span class="glyphicon glyphicon-eye-open" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalSuscripcion">
+                                <span class="glyphicon glyphicon-plus" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#myModalEditStudent">
+                                <span class="glyphicon glyphicon-pencil" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalDel">
+                                <span class="glyphicon glyphicon-trash" aria-hidden="true">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Alejandro Sosa</td>
+                        <td>34545654322</td>
+                        <td>Spinning</td>
+                        <td>Activa</td>
+                        <td>
+                            <a class="btn-lg" data-toggle="modal" data-target="#modalDet">
+                                <span class="glyphicon glyphicon-eye-open" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalSuscripcion">
+                                <span class="glyphicon glyphicon-plus" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#myModalEditStudent">
+                                <span class="glyphicon glyphicon-pencil" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalDel">
+                                <span class="glyphicon glyphicon-trash" aria-hidden="true">
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Estebas Morales</td>
+                        <td>3465347743</td>
+                        <td>Targeta Ejecutiva</td>
+                        <td>No Activa</td>
+                        <td>
+                            <a class="btn-lg" data-toggle="modal" data-target="#modalDet">
+                                <span class="glyphicon glyphicon-eye-open" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalSuscripcion">
+                                <span class="glyphicon glyphicon-plus" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#myModalEditStudent">
+                                <span class="glyphicon glyphicon-pencil" aria-hidden="true">
+                            </a>
+                            <a class="btn-lg" href="#" data-toggle="modal" data-target="#modalDel">
+                                <span class="glyphicon glyphicon-trash" aria-hidden="true">
+                            </a>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Paginacion -->
+        <div class="row">
+            <div class="text-center">
+                <ul class="pagination pagination-lg">
+                    <li class="disabled">
+                        <a href="#">&laquo;</a>
+                    </li>
+
+                    <li class="active">
+                        <a href="#">1</a>
+                    </li>
+
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+
+                    <li>
+                        <a href="#">4</a>
+                    </li>
+
+                    <li>
+                        <a href="#">5</a>
+                    </li>
+
+                    <li>
+                        <a href="#">&raquo;</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+        <!--fin Paginacion -->
+
+    </div>
+
+    <!-- Modal detalles-->
+    <div id="modalDet" class="modal fade" role="dialog">
+      <!--Dialogo detalles de un item de contabilidad-->
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Detalles Alumno</h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="row col-xs-10 col-xs-offset-1">
+                <div class="row">
+                  <div class="col-md-8 col-md-offset-2">
+                    <img class="img-thumbnail img-responsive" src="img/userImage.svg" alt="">
+                  </div>
+                  <div class="col-md-4 col-md-offset-7">
+                    <a class="pull-right margin-component" href="#">Cambiar imagen</a>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="nombre">Nombre</label>
+                  <input id="nombre" type="text" class="form-control " name="username" value="Pepe Perez" required="" autofocus="">
+                </div>
+                <div class="form-group">
+                  <label for="docIdentidad">Documento de identidad</label>
+                  <input id="docIdentidad" type="text" class="form-control " name="id" value="cc. 623623892" required="" autofocus="">
+                </div>
+                <div class="form-group">
+                  <label for="telefono">Telefono</label>
+                  <input id="telefono" type="text" class="form-control " name="phone" value="310 213 12 12" required="" autofocus="">
+                </div>
+                <div class="form-group">
+                  <label for="eMail">Correo Electronico</label>
+                  <input id="eMail" type="text" class="form-control " name="eMail" value="pepin69@hotmail.com" required="" autofocus="">
+                </div>
+                <div class="form-group">
+                  <label for="programas">Tipo Suscripcion vigente</label>
+                  <input id="programas" type="text" class="form-control " name="programs" value="Tarjeta ejecutiva" required="" autofocus="">
+                </div>
+                <div class="form-group">
+                  <label for="programas">Fecha Nacimiento</label>
+                  <input id="programas" type="date" class="form-control " name="birthdate" value="1996/12/09" required="" autofocus="">
+                </div>
+                <div class="form-group">
+                  <label for="programas">Tipo de Sangre</label>
+                  <input id="programas" type="text" class="form-control " name="blodType" value="0+" required="" autofocus="">
+                </div>
+                <div class="form-group">
+                  <label for="programas">Enfermedades</label>
+                  <input id="programas" type="text" class="form-control " name="illness" value="Alta presion arterial, epilepsia" required="" autofocus="">
+                </div>
+                <div class="form-group">
+                  <label for="programas">Habitos perjudiciales</label>
+                  <input id="programas" type="text" class="form-control " name="badHabits" value="Fuma, consume bebidas alcoholicas" required="" autofocus="">
+                </div>
+                <div class="form-group">
+                  <label for="programas">Enfermedad caso especial</label>
+                  <input id="programas" type="text" class="form-control " name="badHabits" value="Ninguna" required="" autofocus="">
+                </div>
+                <div class="form-group">
+                  <label for="programas">Nombre Medico de Cabecera/contacto</label>
+                  <input id="programas" type="text" class="form-control " name="badHabits" value="Dr. Enrrique Quevedo / 3106194848" required="" autofocus="">
+                </div>
+                <div class="form-group">
+                  <label for="programas">En caso de emergencia llamar a</label>
+                  <input id="programas" type="text" class="form-control " name="badHabits" value="Camila Uribe, esposa - 3135562548" required="" autofocus="">
+                </div>
+                <div class="form-group">
+                  <label for="programas">Descripcion trabajo y habitos de ejercicio</label>
+                  <input id="programas" type="text" class="form-control " name="badHabits" value="Trabajo intenso, esfuerzo recreacional" required="" autofocus="">
+                </div>
+                <div class="form-group">
+                  <label for="programas">Deporte que practica</label>
+                  <input id="programas" type="text" class="form-control " name="badHabits" value="Ninguno" required="" autofocus="">
+                </div>
+                <div class="form-group">
+                  <label for="programas">Condicion Fisica</label>
+                  <input id="programas" type="text" class="form-control " name="badHabits" value="Buena" required="" autofocus="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Listo</button>
+            <button type="button" class="btn btn-info" data-dismiss="modal"><a href="#">Ver Progresos Fisicos</a></button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Modal  Editar studiante-->
+    <div id="myModalEditStudent" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="text-center">Alumno</h2>
+                    <div class="modal-body">
+                        <div class="row row-m-t col-xs-12 col-md-12">
+                            <div class="col-md-12 col-xs-12">
+                                <!-- Imagen-->
+                                <div class="row row-m-t">
+                                    <div class="col-md-6 col-md-offset-3">
+                                        <img class="img-thumbnail img-responsive" src="img/userImage.svg" alt="">
+                                    </div>
+                                    <div class="col-md-10 col-md-offset-2">
+                                        <a class="pull-right margin-component" href="#">Cambiar imagen</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
+                                <!--Formulario -->
+                                <form action="">
+
+                                    <div class="form-group">
+                                        <label for="nombre" class="row-m-t">Nombre</label>
+                                        <input id="nombre" type="text" class="form-control " value="Pepe Perez" name="username" placeholder="Nombre usuario" required=""
+                                            autofocus="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="docIdentidad" class="row-m-t">Documento de identidad</label>
+                                        <input id="docIdentidad" type="number" value="2334453454" class="form-control " name="id" placeholder="C.C./T.i." required=""
+                                            autofocus="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="telefono" class="row-m-t">Telefono</label>
+                                        <input id="telefono" type="text" value="3221862627" class="form-control " name="phone" placeholder="310 213 12 12" required=""
+                                            autofocus="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="eMail" class="row-m-t">Correo Electronico</label>
+                                        <input id="eMail" type="text" value="pepito12@gmail.com" class="form-control " name="eMail" placeholder="ejemplo@correo.com"
+                                            required="" autofocus="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="programas" class="row-m-t">Programas: </label>
+                                        <select class="form-control" id="sel1">
+                                            <option>Targeta Ejecutiva</option>
+                                            <option>Spinning</option>
+                                            <option>Entrenamiento Personalizado</option>
+                                            <option>Zumba</option>
+                                            <option>Targeta Ejecutiva</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="date" class="row-m-t">Fecha Inicio Suscripción</label>
+                                        <input id="date" type="date" value="25/11/2017" class="form-control" name="date" required="" autofocus="" />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="date" class="row-m-t">Fecha Finalizacion Suscripción</label>
+                                        <input id="date" type="date" value="25/12/2017" class="form-control" name="date" required="" autofocus="" />
+                                    </div>
+                                </form>
+                                <div class="row-m-t">
+                                  <button type="button" class="btn btn-info btn-block" ><a href="FormularioHistorialMedicoUno.html">Editar historial medico</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row modal-footer">
+                        <div class="col-md-5 col-xs-6 row-m-t">
+                            <button type="button" class="btn btn-primary" data-dismiss="modal">Guardar</button>
+                        </div>
+                        <div class="col-md-5 col-xs-4 row-m-t">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Modal Editar-->
+
+    <!-- Modal Eliminar-->
+    <div id="modalDel" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Atención</h4>
+                </div>
+                <div class="modal-body alert alert-danger">
+                    <p>Estas seguro que deseas
+                        <strong>Eliminar </strong> a Pepe Perez </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Eliminar</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Modal Agregar suscripcion-->
+    <div id="modalSuscripcion" class="modal fade" role="dialog">
+        <div class="modal-dialog row">
+
+            <!-- Modal content-->
+            <div class="modal-content col-md-12 col-md-offset-1">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Agregar Suscripcion</h4>
+                </div>
+                <div class="modal-body alert alert-info">
+                    <p>Agregar Suscripción a
+                        <strong>Pepe Perez </strong>
+                    </p>
+                </div>
+                <form action="">
+                    <div class="form-group">
+                        <label for="sel1">Suscripcion:</label>
+                        <select class="form-control" id="sel1">
+                            <option>Spinning</option>
+                            <option>Targeta Ejecutiva</option>
+                            <option>Zumba</option>
+                            <option>Entrenamiento Personalizado</option>
+                        </select>
+                        <div class="form-group">
+                            <label for="date" class="row-m-t">Fecha Finalización: </label>
+                            <input id="date" type="date" class="form-control" name="username" placeholder="Email Address" required="" autofocus="" />
+                        </div>
+                    </div>
+                </form>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Agregar</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')
+    </script>
+    <script src="js/vendor/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

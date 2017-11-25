@@ -1,0 +1,28 @@
+.row-m-t{
+    margin-top : 20px !important;
+  }
+
+  .row-l-t{
+      margin-left : 50px !important;
+    }
+
+.margin-component{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.none{
+    display: none;
+}
+
+.margin-top-table{
+    margin-top: 40px;
+}
+
+.navbar-header {
+    width: 100% !important;
+}
+
+.margin-top {
+    margin-top: 100px !important;
+}
