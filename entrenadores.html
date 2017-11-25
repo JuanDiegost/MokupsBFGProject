@@ -217,29 +217,48 @@
             <h4 class="modal-title">Detalles entrenador</h4>
           </div>
           <div class="modal-body">
-            <div class="row row-m-t">
-              <div class="col-xs-12 col-md-11">
-                <form>
+            <div class="row">
+              <div class="row row-m-t col-xs-10 col-xs-offset-1">
+                <div class="col-md-8">
+                  <!--parte izquierda -->
                   <div class="form-group">
-                    <label for="comment">Descripción:</label>
-                    <textarea class="form-control" rows="5" id="comment">Entrada mensualidad de el ing. Tobias por el mes de Diciembre, 2016.</textarea>
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" type="text" class="form-control " name="username" value="Raul Romero" required="" autofocus="">
                   </div>
                   <div class="form-group">
-                    <label for="valor">Valor:</label>
-                    <textarea class="form-control" rows="1" id="valor">$100.000.oo</textarea>
+                    <label for="docIdentidad">Documento de identidad</label>
+                    <input id="docIdentidad" type="text" class="form-control " name="id" value="cc. 46 665 436" required="" autofocus="">
                   </div>
                   <div class="form-group">
-                    <label for="date" class="row-m-t">Fecha</label>
-                    <input id="date" type="date" class="form-control" name="date" required="" autofocus="" />
-                    <!--Poner un placeholder de fecha-->
+                    <label for="telefono">Telefono</label>
+                    <input id="telefono" type="text" class="form-control " name="phone" value="310 213 12 12" required="" autofocus="">
                   </div>
-                </form>
+                  <div class="form-group">
+                    <label for="eMail">Correo Electronico</label>
+                    <input id="eMail" type="text" class="form-control " name="eMail" value="rmero36@hotmail.com" required="" autofocus="">
+                  </div>
+                  <div class="form-group">
+                    <label for="programas">Programas</label>
+                    <input id="programas" type="text" class="form-control " name="programs" value="Entrenador general" required="" autofocus="">
+                  </div>
+                </div>
+                <div class="col-md-4 row">
+                  <!-- parte derecha-->
+                  <div class="row row-m-t">
+                    <div class="col-md-10 col-md-offset-1">
+                      <img class="img-thumbnail img-responsive" src="img/userImage.svg" alt="">
+                    </div>
+                    <div class="col-md-4 col-md-offset-7">
+                      <a class="pull-right margin-component" href="#">Cambiar imagen</a>
+                    </div>
+                  </div>
+                </div>
               </div>
-
             </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-primary" data-dismiss="modal">Listo</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Guardar cambios</button>
           </div>
         </div>
 

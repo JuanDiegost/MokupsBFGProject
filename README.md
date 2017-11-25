@@ -13,7 +13,7 @@ LISTA M
 
 - [x] MK_003 Agregar Entrenador: https://juandiegost.github.io/MokupsBFGProject/agregarEntrenador.html
 
-- [ ] MK_003.5 Agregar alumno: https://juandiegost.github.io/MokupsBFGProject/agregarAlumno.html //falta arreglar lo que sea que le fale
+- [x] MK_003.5 Agregar alumno: https://juandiegost.github.io/MokupsBFGProject/agregarAlumno.html //falta arreglar lo que sea que le falte
 
 - [x] MK_004 Programas : https://juandiegost.github.io/MokupsBFGProject/programas.html
 
@@ -25,7 +25,7 @@ LISTA M
 
 - [x] MK_008 RegistroSuscripcion : dialogo dentro de MK_007
 
-- [x] MK_009 Detalles alumnos :  dialogo dentro de MK_007
+- [ ] MK_009 Detalles alumnos :  dialogo dentro de MK_007
 
 - [x] MK_010 historialMedico :  https://juandiegost.github.io/MokupsBFGProject/FormularioHistorialMedicoUno.html
 
@@ -41,7 +41,7 @@ LISTA M
 
 - [x] MK_017 Lista Entrenadores : https://juandiegost.github.io/MokupsBFGProject/entrenadores.html
 
-- [ ] MK_018 detalles/editar Entrenadores : Dialogo dentro de MK_017
+- [x] MK_018 detalles/editar Entrenadores : Dialogo dentro de MK_017
 
 - [ ] MK_019 Progresos Alumnos : EMPECE A DARLE :tired_face:
 

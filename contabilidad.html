@@ -71,7 +71,7 @@
           <span class=" glyphicon glyphicon-plus" aria-hidden="true"></span> Agregar movimiento
         </button>
       </div>
-      <div class="row col-md-2 col-md-offset-1 panel panel-default">
+      <div class="row row-m-t col-md-3 col-md-offset-1 panel panel-default">
         <!-- parte de la izquierda donde estan los filtros-->
         <div class="panel-body">
           <!-- panel-->
@@ -110,7 +110,7 @@
               <label for="tipo">Balance</label>
               <div class="form-group">
                 <select class="form-control" id="sel1">
-                  <option>Ganancias Netas</option>
+                  <option>Ingresos Netos</option>
                   <option>Egresos Netos</option>
                   <option>Ganancias</option>
                 </select>
@@ -119,11 +119,11 @@
           </div>
           <div class="row-m-t">
             <!--boton imprimir balance-->
-            <button class="btn btn-block btn-success" type="reset">Imprimir balance</button>
+            <button class="btn btn-block btn-primary" type="reset">Imprimir balance</button>
           </div>
         </div>
       </div>
-      <div class="row col-md-8 col-md-offset-1 panel panel-default">
+      <div class="row-m-t row-l-t row col-md-7 panel panel-default">
         <!-- parte de la derecha -->
         <div class="table-responsive">
           <!--tabla de movimientos-->
@@ -149,7 +149,6 @@
                   </a>
                   <a class="btn-lg" href="#">
                     <span class="glyphicon glyphicon-trash" aria-hidden="true">
-
                   </a>
                 </td>
               </tr>
@@ -164,12 +163,11 @@
                   </a>
                   <a class="btn-lg" href="#">
                     <span class="glyphicon glyphicon-trash" aria-hidden="true">
-
                   </a>
                 </td>
               </tr>
               <tr>
-                <<td>Pago Aseo</td>
+                <td>Pago Aseo</td>
                   <td>10/06/2017</td>
                   <td>$30.000</td>
                   <td>Pago señora aseo 2 semana Julio</td>
@@ -244,7 +242,7 @@
                 </td>
               </tr>
               <tr>
-                <<td>Pago Aseo</td>
+                  <td>Pago Aseo</td>
                   <td>15/07/2017</td>
                   <td>$30.000</td>
                   <td>Pago señora aseo 3 semana Junio</td>
@@ -262,6 +260,42 @@
           </table>
         </div>
       </div>
+      <!-- Paginacion -->
+      <div class="row">
+          <div class="text-center">
+              <ul class="pagination pagination-lg">
+                  <li class="disabled">
+                      <a href="#">&laquo;</a>
+                  </li>
+
+                  <li class="active">
+                      <a href="#">1</a>
+                  </li>
+
+                  <li>
+                      <a href="#">2</a>
+                  </li>
+
+                  <li>
+                      <a href="#">3</a>
+                  </li>
+
+                  <li>
+                      <a href="#">4</a>
+                  </li>
+
+                  <li>
+                      <a href="#">5</a>
+                  </li>
+
+                  <li>
+                      <a href="#">&raquo;</a>
+                  </li>
+
+              </ul>
+          </div>
+      </div>
+      <!--fin Paginacion -->
     </div>
   </div>
   <!-- Modal -->
@@ -294,7 +328,6 @@
                 </div>
               </form>
             </div>
-
           </div>
         </div>
         <div class="modal-footer">
