@@ -72,10 +72,10 @@
     <section class="main">
 
         <div class="row row-m-t">
-            <div class="col-md-2 col-xs-6 row-m-t">
+            <div class="col-md-2 col-md-offset-1 col-xs-offset-1 col-xs-6 row-m-t">
                 <img class="img-thumbnail img-responsive row-m-t" src="img/userImage.svg" alt="">
             </div>
-            <div class="col-md-6 col-xs-9 row-m-t">
+            <div class="col-md-5 col-xs-9 col-xs-offset-1 row-m-t">
                 <!--Formulario -->
                 <form action="">
                     <label for="nombre" class="row-m-t">Nombre: Pepe Perez</label>
@@ -85,8 +85,9 @@
                     <label for="eMail" class="row-m-t">Correo Electronico: pep24@gmail.com</label>
                 </form>
             </div>
-            <div class="col-md-2 col-xs-9 margin-top-table">
-                <a href="alumnos.html" class="btn btn-info btn-sm"> <span class=" glyphicon glyphicon-arrow-left"></span> Lista de alumnos</a>
+            <div class="col-md-1 col-xs-9 margin-top-table col-xs-offset-1">
+                <a href="alumnos.html" class="btn btn-info btn-sm">
+                    <span class=" glyphicon glyphicon-arrow-left"></span> Lista de alumnos</a>
             </div>
         </div>
         <div class="row">
@@ -101,11 +102,11 @@
                         <div class="thumbnail">
                             <div class="row">
                                 <div class="col-md-12 col-xs-12">
-                                    <canvas id="peso"></canvas>
+                                    <canvas id="peso" height="200px"></canvas>
                                 </div>
                                 <div class="caption">
                                     <div class="col-md-12 col-xs-12 text-right">
-                                        <button type="button" class="btn btn-success btn-md">
+                                        <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modalProgreso">
                                             <span class=" glyphicon glyphicon-plus" aria-hidden="true"></span> Agregar Progreso
                                         </button>
                                     </div>
@@ -118,11 +119,11 @@
                         <div class="thumbnail">
                             <div class="row">
                                 <div class="col-md-12 col-xs-12">
-                                    <canvas id="masa-muscular"></canvas>
+                                    <canvas id="masa-muscular" height="200px"></canvas>
                                 </div>
                                 <div class="caption">
                                     <div class="col-md-12 col-xs-12 text-right">
-                                        <button type="button" class="btn btn-success btn-md">
+                                        <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modalProgreso">
                                             <span class=" glyphicon glyphicon-plus" aria-hidden="true"></span> Agregar Progreso
                                         </button>
                                     </div>
@@ -135,11 +136,11 @@
                         <div class="thumbnail">
                             <div class="row">
                                 <div class="col-md-12 col-xs-12">
-                                    <canvas id="hombros"></canvas>
+                                    <canvas id="hombros" height="200px"></canvas>
                                 </div>
                                 <div class="caption">
                                     <div class="col-md-12 col-xs-12 text-right">
-                                        <button type="button" class="btn btn-success btn-md">
+                                        <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modalProgreso">
                                             <span class=" glyphicon glyphicon-plus" aria-hidden="true"></span> Agregar Progreso
                                         </button>
                                     </div>
@@ -152,11 +153,11 @@
                         <div class="thumbnail">
                             <div class="row">
                                 <div class="col-md-12 col-xs-12">
-                                    <canvas id="espalda"></canvas>
+                                    <canvas id="espalda" height="200px"></canvas>
                                 </div>
                                 <div class="caption">
                                     <div class="col-md-12 col-xs-12 text-right">
-                                        <button type="button" class="btn btn-success btn-md">
+                                        <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modalProgreso">
                                             <span class=" glyphicon glyphicon-plus" aria-hidden="true"></span> Agregar Progreso
                                         </button>
                                     </div>
@@ -169,11 +170,11 @@
                         <div class="thumbnail">
                             <div class="row">
                                 <div class="col-md-12 col-xs-12">
-                                    <canvas id="pectorales"></canvas>
+                                    <canvas id="pectorales" height="200px"></canvas>
                                 </div>
                                 <div class="caption">
                                     <div class="col-md-12 col-xs-12 text-right">
-                                        <button type="button" class="btn btn-success btn-md">
+                                        <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modalProgreso">
                                             <span class=" glyphicon glyphicon-plus" aria-hidden="true"></span> Agregar Progreso
                                         </button>
                                     </div>
@@ -186,11 +187,11 @@
                         <div class="thumbnail">
                             <div class="row">
                                 <div class="col-md-12 col-xs-12">
-                                    <canvas id="cintura"></canvas>
+                                    <canvas id="cintura" height="200px"></canvas>
                                 </div>
                                 <div class="caption">
                                     <div class="col-md-12 col-xs-12 text-right">
-                                        <button type="button" class="btn btn-success btn-md">
+                                        <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modalProgreso">
                                             <span class=" glyphicon glyphicon-plus" aria-hidden="true"></span> Agregar Progreso
                                         </button>
                                     </div>
@@ -203,11 +204,11 @@
                         <div class="thumbnail">
                             <div class="row">
                                 <div class="col-md-12 col-xs-12">
-                                    <canvas id="pantorrilla"></canvas>
+                                    <canvas id="pantorrilla" height="200px"></canvas>
                                 </div>
                                 <div class="caption">
                                     <div class="col-md-12 col-xs-12 text-right">
-                                        <button type="button" class="btn btn-success btn-md">
+                                        <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modalProgreso">
                                             <span class=" glyphicon glyphicon-plus" aria-hidden="true"></span> Agregar Progreso
                                         </button>
                                     </div>
@@ -220,11 +221,11 @@
                         <div class="thumbnail">
                             <div class="row">
                                 <div class="col-md-12 col-xs-12">
-                                    <canvas id="brazo"></canvas>
+                                    <canvas id="brazo" height="200px"></canvas>
                                 </div>
                                 <div class="caption">
                                     <div class="col-md-12 col-xs-12 text-right">
-                                        <button type="button" class="btn btn-success btn-md">
+                                        <button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#modalProgreso">
                                             <span class=" glyphicon glyphicon-plus" aria-hidden="true"></span> Agregar Progreso
                                         </button>
                                     </div>
@@ -255,6 +256,39 @@
             </div>
         </div>
     </footer>
+
+    <!-- Modal Agregar progreso-->
+    <div id="modalProgreso" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Agregar medida de...</h4>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
+                        <form action="">
+                            <div class="form-group margin-component">
+                                <label for="progresos" class="row-m-t">Progreso</label>
+                                <div class="input-group">
+                                    <input id="progreso" type="number" class="form-control" aria-label="Amount (to the nearest dollar)">
+                                    <span class="input-group-addon">(kg | cm)</span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Agregar</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
