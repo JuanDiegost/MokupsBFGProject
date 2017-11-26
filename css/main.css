@@ -24,7 +24,11 @@
 }
 
 .margin-top {
-    margin-top: 100px !important;
+    margin-top: 50px !important;    
+}
+
+.margin-top-nav-sm{
+    margin-top: 50px !important;    
 }
 
 
@@ -55,3 +59,7 @@ html {
   .footer .row {
     margin: 0;    
   }
+
+  /*--query--*/
+
+

@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     /*---------scroll menu--------*/
-    var servicios = $('#servicios').offset().top -200,
+    var servicios = $('#servicios').offset().top -250,
         horario = $('#horario').offset().top -200,
         inicio = $('#inicio').offset().top -200,
         contacto = $('#contacto').offset().top -200;
