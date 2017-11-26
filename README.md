@@ -31,7 +31,7 @@ LISTA M
 
 - [x] MK_010 historialMedico :  https://juandiegost.github.io/MokupsBFGProject/FormularioHistorialMedicoUno.html
 
-- [x] MK_012 Inicio :   https://juandiegost.github.io/MokupsBFGProject/inicio.html //hay que arreglar la parte de pestañas (ni puta idea como)
+- [x] MK_012 Inicio :   https://juandiegost.github.io/MokupsBFGProject/inicio.html
 
 - [x] MK_013 Horarios :  EN MK_012 INICIO ESTA
 
