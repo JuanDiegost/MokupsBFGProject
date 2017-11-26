@@ -15,54 +15,56 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="collapse navbar-collapse">
-                    <div class="col-md-1 col-xs-2 col-sm-2">
-                        <img src="img/logo.png" class="img-responsive" alt="Responsive image">
+    <header>
+        <nav class="navbar navbar-fixed-top navbar-default">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="collapse navbar-collapse">
+                        <div class="col-md-1 col-xs-2 col-sm-2">
+                            <img src="img/logo.png" class="img-responsive" alt="Responsive image">
+                        </div>
+                        <div class="col-md-6 col-xs-12 col-md-offset-2 ">
+                            <h3>Body Fitnes Gym Duitama LTDA</h3>
+                        </div>
                     </div>
-                    <div class="col-md-6 col-xs-12 col-md-offset-2 ">
-                        <h3>Body Fitnes Gym Duitama LTDA</h3>
-                    </div>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
+                        <span class="sr-only">Alternar menu</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
                 </div>
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1">
-                    <span class="sr-only">Alternar menu</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar1">
-                <ul class="nav navbar-nav container-fluid">
-                    <li class="active">
-                        <a href="#">Alumnos
-                        </a>
-                    </li>
-                    <li>
-                        <a href="programas.html">Programas</a>
-                        <span class="sr-only">(current)</span>
-                    </li>
-                    <li>
-                        <a href="entrenadores.html">Entrenadores</a>
-                    </li>
-                    <li>
-                        <a href="contabilidad.html">Contabilidad</a>
-                    </li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="login.html">
-                            </span>Cerrar sesión
-                            <span class="glyphicon glyphicon-log-in"></span>
-                        </a>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse" id="navbar1">
+                    <ul class="nav navbar-nav container-fluid">
+                        <li class="active">
+                            <a href="#">Alumnos
+                            </a>
+                        </li>
+                        <li>
+                            <a href="programas.html">Programas</a>
+                            <span class="sr-only">(current)</span>
+                        </li>
+                        <li>
+                            <a href="entrenadores.html">Entrenadores</a>
+                        </li>
+                        <li>
+                            <a href="contabilidad.html">Contabilidad</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="login.html">
+                                </span>Cerrar sesión
+                                <span class="glyphicon glyphicon-log-in"></span>
+                            </a>
+                        </li>
+                    </ul>
 
+                </div>
+                <!-- /.navbar-collapse -->
             </div>
-            <!-- /.navbar-collapse -->
-        </div>
-    </nav>
+        </nav>
+    </header>
 
     <div class="alert alert-danger alert-dismissable fade in none">
         <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
@@ -72,8 +74,8 @@
 
     <!-- /.container-fluid -->
     <div class="container row-m-t">
-        <div class="row">
-            <div class="col-md-6">
+        <div class="row row-m-t">
+            <div class="col-md-6 margin-top">
                 <form class="navbar-form navbar-left" role="search">
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Buscar">
@@ -83,7 +85,7 @@
                     </button>
                 </form>
             </div>
-            <div class="col-md-3 col-xs-6 col-md-offset-2 col-xs-offset-1">
+            <div class="col-md-3 col-xs-6 col-md-offset-2 col-xs-offset-1 margin-top">
                 <a class="btn btn-default btn-lg" href="agregarAlumno.html">
                     <span class=" glyphicon glyphicon-plus" aria-hidden="true"></span> Registrar Nuevo Usuario
                 </a>
@@ -441,16 +443,6 @@
                     </button>
                 </div>
             </div>
-<<<<<<< HEAD
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-primary" data-dismiss="modal">Listo</button>
-            <button type="button" class="btn btn-info"><a href="progresos.html">Ver Progresos Fisicos</a></button>
-          </div>
-        </div>
-=======
->>>>>>> 611d9bd50054216a18a0199749b797a1774dbd0e
-
         </div>
     </div>
 
@@ -604,6 +596,26 @@
 
         </div>
     </div>
+
+<!--FOOTER-->
+<footer>
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <hr>
+                    <p class="text-center">
+                        <div class="legal">
+                            <p>Copyright Body Fitness Gym Duitama LTDA (c) 2017 Copyright Holder All Rights Reserved.</p>
+                        </div>
+                        <a href="#">Terminos y condiciones</a>
+                    </p>
+                    <p class="pull-right">
+                        <a href="#">Subir en pagina</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
