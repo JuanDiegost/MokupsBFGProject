@@ -19,13 +19,13 @@ LISTA M
 
 - [x] MK_004.5 Programas : crear programa
 
-- [ ] MK_005 Detalles y edicion programas : esta dentro MK_004
+- [x] MK_005 Detalles y edicion programas : esta dentro MK_004
 
 - [ ] MK_006 Contabilidad : https://juandiegost.github.io/MokupsBFGProject/contabilidad.html
 
-- [ ] MK_007 Lista de alumnos : https://juandiegost.github.io/MokupsBFGProject/alumnos.html
+- [x] MK_007 Lista de alumnos : https://juandiegost.github.io/MokupsBFGProject/alumnos.html
 
-- [ ] MK_008 RegistroSuscripcion : dialogo dentro de MK_007
+- [x] MK_008 RegistroSuscripcion : dialogo dentro de MK_007
 
 - [ ] MK_009 Detalles alumnos :  dialogo dentro de MK_007
 
