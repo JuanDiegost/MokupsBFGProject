@@ -11,7 +11,7 @@ LISTA M
 
 - [x] MK_002 Forgot Password: https://juandiegost.github.io/MokupsBFGProject/forgot_password.html estoy dandole
 
-- [ ] MK_003 Agregar Entrenador: https://juandiegost.github.io/MokupsBFGProject/agregarEntrenador.html
+- [X] MK_003 Agregar Entrenador: https://juandiegost.github.io/MokupsBFGProject/agregarEntrenador.html
 
 - [ ] MK_003.5 Agregar alumno: https://juandiegost.github.io/MokupsBFGProject/agregarAlumno.html
 
@@ -19,7 +19,7 @@ LISTA M
 
 - [x] MK_004.5 Programas : crear programa
 
-- [ ] MK_005 Detalles y edicion programas : esta dentro MK_004
+- [X] MK_005 Detalles y edicion programas : esta dentro MK_004
 
 - [x] MK_006 Contabilidad : https://juandiegost.github.io/MokupsBFGProject/contabilidad.html
 
@@ -41,9 +41,9 @@ LISTA M
 
 - [x] MK_016 AgregarMovimiento : Dialogo dentro de MK_006
 
-- [ ] MK_017 Lista Entrenadores : https://juandiegost.github.io/MokupsBFGProject/entrenadores.html
+- [x] MK_017 Lista Entrenadores : https://juandiegost.github.io/MokupsBFGProject/entrenadores.html
 
-- [ ] MK_018 detalles/editar Entrenadores : Dialogo dentro de MK_017
+- [x] MK_018 detalles/editar Entrenadores : Dialogo dentro de MK_017
 
 - [ ] MK_019 Progresos Alumnos :  https://juandiegost.github.io/MokupsBFGProject/progresos.html
 
