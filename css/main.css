@@ -40,6 +40,11 @@
     margin-bottom: 100px;
 }
 
+.no-decorated{
+    text-decoration: none !important;
+    color: black !important;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {

@@ -17,7 +17,7 @@ LISTA M
 
 - [x] MK_004 Programas : https://juandiegost.github.io/MokupsBFGProject/programas.html
 
-- [ ] MK_004.5 Programas : crear programa
+- [x] MK_004.5 Programas : crear programa
 
 - [x] MK_005 Detalles y edicion programas : esta dentro MK_004
 
@@ -45,7 +45,7 @@ LISTA M
 
 - [x] MK_018 detalles/editar Entrenadores : Dialogo dentro de MK_017
 
-- [x] MK_019 Progresos Alumnos :  https://juandiegost.github.io/MokupsBFGProject/progresos.html 
+- [x] MK_019 Progresos Alumnos :  https://juandiegost.github.io/MokupsBFGProject/progresos.html
 
 - [x] MK_020 Agregar Progresos : Dialogo dentro de MK_019
 
