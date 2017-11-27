@@ -21,7 +21,7 @@ LISTA M
 
 - [ ] MK_005 Detalles y edicion programas : esta dentro MK_004
 
-- [ ] MK_006 Contabilidad : https://juandiegost.github.io/MokupsBFGProject/contabilidad.html
+- [x] MK_006 Contabilidad : https://juandiegost.github.io/MokupsBFGProject/contabilidad.html
 
 - [ ] MK_007 Lista de alumnos : https://juandiegost.github.io/MokupsBFGProject/alumnos.html
 
@@ -39,7 +39,7 @@ LISTA M
 
 - [ ] MK_015 Detalles Servicios :  EN MK_012 INICIO ESTA
 
-- [ ] MK_016 AgregarMovimiento : Dialogo dentro de MK_006
+- [x] MK_016 AgregarMovimiento : Dialogo dentro de MK_006
 
 - [ ] MK_017 Lista Entrenadores : https://juandiegost.github.io/MokupsBFGProject/entrenadores.html
 

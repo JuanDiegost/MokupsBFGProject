@@ -70,7 +70,7 @@
 
   <div class="container-fluid row-m-t">
     <div class="row row-m-t">
-      <div class="col-md-3 col-md-offset-9 margin-top">
+      <div class="col-md-3 col-md-offset-9 col-xs-offset-2 margin-top">
         <!-- parte sueperior donde esta ell boton de agregar movimiento-->
         <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModalAddMovement">
           <span class=" glyphicon glyphicon-plus" aria-hidden="true"></span> Agregar movimiento
@@ -80,64 +80,73 @@
         <!-- parte de la izquierda donde estan los filtros-->
         <div class="panel-body">
           <!-- panel-->
-          <div>
+          <div class="row">
             <!--titulo del panel-->
-            <h1 class="text-center">Filtros</h1>
-          </div>
-          <div>
-            <!--buscar-->
-            <div class="form-group">
-              <label for="tipo">Bucar</label>
-              <input id="buscar" type="text" class="form-control " name="buscar" placeholder="palabra clave"required="">
+            <div class="col-md-8 col-xs-8 col-xs-offset-2">
+              <h1 class="text-center">Filtros</h1>
             </div>
-            <!--tipo-->
-            <div class="form-group">
-              <label for="tipo">Tipo</label>
+            <div class="col-md-1 col-xs-1 row-m-t">
+              <button type="button" class="btn btn-link btn-lg" data-toggle="collapse" data-target="#filtros"><!--ACA HAY QUE PONER QUE CUANDO CLICK SE COLAPSE TODO EL COSO-->
+                  <span class="glyphicon glyphicon-chevron-down" aria-hidden="true "></span>
+              </button>
+            </div>
+          </div>
+          <div id="filtros" class="collapse in">
+            <div>
+              <!--buscar-->
               <div class="form-group">
-                <select class="form-control" id="sel1">
-                  <option>Entrada Suscripcion</option>
-                  <option>Entrada Otro</option>
-                  <option>Salida pagos</option>
-                  <option>Salida otro</option>
-                </select>
+                <label for="tipo">Bucar</label>
+                <input id="buscar" type="text" class="form-control " name="buscar" placeholder="palabra clave"required="">
+              </div>
+              <!--tipo-->
+              <div class="form-group">
+                <label for="tipo">Tipo</label>
+                <div class="form-group">
+                  <select class="form-control" id="sel1">
+                    <option>Entrada Suscripcion</option>
+                    <option>Entrada Otro</option>
+                    <option>Salida pagos</option>
+                    <option>Salida otro</option>
+                  </select>
+                </div>
               </div>
             </div>
-          </div>
-          <div>
-            <!--campo fedchas-->
             <div>
-              <label for="fecha-inicio" class="">Inicio</label>
-              <input id="fecha-inicio" type="date" class="form-control " name="type" required="" autofocus="">
-            </div>
-            <div>
-              <label for="fecha-final" class="">Final</label>
-              <input id="fecha-final" type="date" class="form-control " name="dateEnd" required="" autofocus="">
-            </div>
-          </div>
-          <div>
-            <!--tipoContabilidad-->
-            <div class="form-group">
-              <label for="tipo">Balance</label>
-              <div class="form-group">
-                <select class="form-control" id="sel1">
-                  <option>Ingresos Netos</option>
-                  <option>Egresos Netos</option>
-                  <option>Ganancias</option>
-                </select>
+              <!--campo fedchas-->
+              <div>
+                <label for="fecha-inicio" class="">Inicio</label>
+                <input id="fecha-inicio" type="date" class="form-control " name="type" required="" autofocus="">
+              </div>
+              <div>
+                <label for="fecha-final" class="">Final</label>
+                <input id="fecha-final" type="date" class="form-control " name="dateEnd" required="" autofocus="">
               </div>
             </div>
-          </div>
-          <div class="row-m-t">
-            <!--boton filtrar-->
-            <button class="btn btn-block btn-primary" type="reset">Filtrar</button>
-          </div>
-          <div class="row-m-t">
+            <div>
+              <!--tipoContabilidad-->
+              <div class="form-group">
+                <label for="tipo">Balance</label>
+                <div class="form-group">
+                  <select class="form-control" id="sel1">
+                    <option>Ingresos Netos</option>
+                    <option>Egresos Netos</option>
+                    <option>Ganancias</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row-m-t">
+              <!--boton filtrar-->
+              <button class="btn btn-block btn-primary" type="reset">Filtrar</button>
+            </div>
+            <div class="row-m-t">
             <!--boton imprimir balance-->
             <button class="btn btn-block btn-default" type="reset"><a class="no-decorated-black" href="#" data-toggle="modal" data-target="#modalImprimir">Imprimir balance</a></button>
           </div>
+          </div>
         </div>
       </div>
-      <div class="row-m-t row-l-t row col-md-7 panel panel-default">
+      <div class="row-m-t row-l-t row-r-t row col-md-7 panel panel-default">
         <!-- parte de la derecha -->
         <div class="table-responsive">
           <!--tabla de movimientos-->
@@ -398,10 +407,10 @@
           </div>
         </div>
         <div class="row modal-footer">
-          <div class="col-md-3 col-md-offset-2">
+          <div class="col-md-3 col-md-offset-2 col-xs-3">
             <button type="button" class="btn btn-primary" data-dismiss="modal">Guardar</button>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-xs-3">
             <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
           </div>
         </div>
