@@ -78,9 +78,9 @@
     <!-- /.container-fluid -->
     <div class="container row-m-t row-m-t">
         <div class="row row-m-t">
-            <div class="col-md-6 margin-top">
+            <div class="col-md-6 margin-top row">
                 <form class="navbar-form navbar-left" role="search">
-                    <div class="form-group">
+                    <div class="form-group col-xs-10">
                         <input type="text" class="form-control" placeholder="Buscar">
                     </div>
                     <button type="submit" class="btn btn-default">
@@ -88,7 +88,7 @@
                     </button>
                 </form>
             </div>
-            <div class="col-md-3 col-xs-6 col-md-offset-2 col-xs-offset-1 margin-top">
+            <div class="col-md-3 col-xs-offset-1 col-md-offset-2  margin-top">
                 <a class="btn btn-default btn-lg" href="agregarEntrenador.html">
                     <span class=" glyphicon glyphicon-plus" aria-hidden="true"></span> Registrar Nuevo Entrenador
                 </a>
@@ -255,7 +255,7 @@
                                         <img class="img-thumbnail img-responsive" src="img/userImage.svg" alt="">
                                     </div>
                                     <div class="col-md-4 col-md-offset-7">
-                                        <a class="pull-right margin-component" href="#">Cambiar imagen</a>
+                                        <a class="pull-right margin-component" href="#" data-toggle="modal" data-target="#modalCambiaImagen">Cambiar imagen</a>
                                     </div>
                                 </div>
                             </div>
@@ -290,6 +290,38 @@
             </div>
         </div>
     </footer>
+    <!-- Modal cambiar imagen-->
+    <div id="modalCambiaImagen" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Inserte el link de la imagen</h4>
+                </div>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1 col-xs-10 col-xs-offset-1">
+                        <form action="">
+                            <div class="form-group margin-component">
+                                <label for="progresos" class="row-m-t">URL</label>
+                                <div class="input-group">
+                                    <input id="progreso" type="number" class="form-control" aria-label="Amount (to the nearest dollar)">
+                                    <span class="input-group-addon">(Face|Google|etc)</span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Agregar</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
