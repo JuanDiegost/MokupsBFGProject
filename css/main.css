@@ -42,6 +42,11 @@
 
 .no-decorated{
     text-decoration: none !important;
+    color: white !important;
+}
+
+.no-decorated-black{
+    text-decoration: none !important;
     color: black !important;
 }
 
