@@ -17,7 +17,7 @@ LISTA M
 
 - [x] MK_004 Programas : https://juandiegost.github.io/MokupsBFGProject/programas.html
 
-- [ ] MK_004.5 Programas : crear programa
+- [x] MK_004.5 Programas : crear programa
 
 - [ ] MK_005 Detalles y edicion programas : esta dentro MK_004
 
