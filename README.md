@@ -31,13 +31,13 @@ LISTA M
 
 - [ ] MK_010 historialMedico :  https://juandiegost.github.io/MokupsBFGProject/FormularioHistorialMedicoUno.html
 
-- [ ] MK_012 Inicio :   https://juandiegost.github.io/MokupsBFGProject/inicio.html
+- [x] MK_012 Inicio :   https://juandiegost.github.io/MokupsBFGProject/inicio.html
 
-- [ ] MK_013 Horarios :  EN MK_012 INICIO ESTA
+- [x] MK_013 Horarios :  EN MK_012 INICIO ESTA
 
-- [ ] MK_014 Servicios :  EN MK_012 INICIO ESTA
+- [x] MK_014 Servicios :  EN MK_012 INICIO ESTA
 
-- [ ] MK_015 Detalles Servicios :  EN MK_012 INICIO ESTA
+- [x] MK_015 Detalles Servicios :  EN MK_012 INICIO ESTA
 
 - [x] MK_016 AgregarMovimiento : Dialogo dentro de MK_006
 
@@ -49,6 +49,6 @@ LISTA M
 
 - [ ] MK_020 Agregar Progresos : Dialogo dentro de MK_019
 
-- [ ] MK_021 MK_022 Mensajes de error y confirmacion : definir
+- [x] MK_021 MK_022 Mensajes de error y confirmacion : definir
 
 - [ ] ponerle estilos a todo.
