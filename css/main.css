@@ -14,10 +14,10 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
    
 .top-btn-xs{
-    margin-top: 100px !important;
+    margin-top: 50px !important;
 }
   }
 .margin-component{
