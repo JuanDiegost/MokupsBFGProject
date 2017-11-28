@@ -54,6 +54,6 @@ LISTA M
 - [ ] ponerle estilos a todo.
 
 
-query margen top dettalles bajerle tamaño
-margent top progresos
-cuetionario 1,2,3,4,5,6,7 responsive y arreglar boton volver 
+- [x] query margen top dettalles bajerle tamaño
+- [x] margent top progresos
+- [x] cuetionario 1,2,3,4,5,6,7 responsive y arreglar boton volver 
