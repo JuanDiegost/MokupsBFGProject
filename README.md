@@ -56,4 +56,4 @@ LISTA M
 
 - [x] query margen top dettalles bajerle tamaño
 - [x] margent top progresos
-- [x] cuetionario 1,2,3,4,5,6,7 responsive y arreglar boton volver 
+- [x] cuetionario 1,2,3,4,5,6,7 responsive y arreglar boton volver
