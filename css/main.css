@@ -19,6 +19,11 @@
 .top-btn-xs{
     margin-top: 50px !important;
 }
+
+
+.h-progresos{
+    margin-bottom: 100px !important;
+}
   }
 .margin-component{
     margin-top: 10px;
@@ -96,4 +101,8 @@ html {
     position: absolute;
     bottom:0;
     left:0;
+  }
+
+  .h-progresos{
+      margin-bottom: 170px;
   }
