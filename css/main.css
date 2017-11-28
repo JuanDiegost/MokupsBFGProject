@@ -14,10 +14,15 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
    
 .top-btn-xs{
-    margin-top: 100px !important;
+    margin-top: 50px !important;
+}
+
+
+.h-progresos{
+    margin-bottom: 100px !important;
 }
   }
 .margin-component{
@@ -96,4 +101,8 @@ html {
     position: absolute;
     bottom:0;
     left:0;
+  }
+
+  .h-progresos{
+      margin-bottom: 170px;
   }
