@@ -7,7 +7,7 @@ Integrantes
 
 LISTA M
 
-- [x] MK_001 Login : https://juandiegost.github.io/MokupsBFGProject/login.html
+- [ ] MK_001 Login : https://juandiegost.github.io/MokupsBFGProject/login.html poner la imagen pro de fondo (background)
 
 - [x] MK_002 Forgot Password: https://juandiegost.github.io/MokupsBFGProject/forgot_password.html estoy dandole
 
