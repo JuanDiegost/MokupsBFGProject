@@ -12,10 +12,13 @@
   .row-r-t{
     margin-right : 50px !important;
   }
+   .navbar-default h3{
+     font-size: 40px!important;
+   }
 }
 
 @media only screen and (max-width: 600px) {
-   
+
 .top-btn-xs{
     margin-top: 50px !important;
 }
@@ -78,19 +81,22 @@ html {
   body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
+    background-color: rgba(5, 54, 88, 0.1);
   }
-  .footer {
+  footer {
     box-sizing: border-box;
-    position: absolute;
+    /*position: absolute;*/
     bottom: 0;
     width: 100%;
+    margin-top: 50px;
     /* Set the fixed height of the footer here */
     height: auto;
-    background-color: #f5f5f5;
+    background-color: rgba(5, 54, 88, 0.3)!important;
   }
 
   .footer .row {
     margin: 0;
+        background-color: rgba(5, 54, 88, 0.8)!important;
   }
 
   /*--query--*/
@@ -106,3 +112,22 @@ html {
   .h-progresos{
       margin-bottom: 170px;
   }
+
+.navbar-default{
+  background-color: rgba(5, 54, 88, 0.75);
+  color: white !important;
+}
+
+.color a{
+  color:white!important;
+}
+
+.color{
+  color:white!important;
+}
+
+.thumbnail{
+  -webkit-box-shadow: 6px 6px 5px 0px rgba(189,189,189,1);
+  -moz-box-shadow: 6px 6px 5px 0px rgba(189,189,189,1);
+  box-shadow: 6px 6px 5px 0px rgba(189,189,189,1);
+}

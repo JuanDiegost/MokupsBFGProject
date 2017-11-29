@@ -29,7 +29,7 @@ LISTA M
 
 - [x] MK_009 Detalles alumnos :  dialogo dentro de MK_007
 
-- [x] MK_010 historialMedico :  https://juandiegost.github.io/MokupsBFGProject/FormularioHistorialMedicoUno.html
+- [ ] MK_010 historialMedico : 4-6
 
 - [x] MK_012 Inicio :   https://juandiegost.github.io/MokupsBFGProject/inicio.html
 
