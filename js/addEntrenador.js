@@ -33,6 +33,9 @@ $(document).ready(function () {
             },
             error: function (er) {
                 $("#alert").append('<div class="alert alert-danger"><strong>Danger!</strong>' + er + '</div>');
+                setTimeout(function () {
+                    location.href = "entrenadores.html";
+                }, 1000);             
             }
         });
     });
