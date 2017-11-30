@@ -7,9 +7,9 @@ Integrantes
 
 LISTA M
 
-- [ ] MK_001 Login : https://juandiegost.github.io/MokupsBFGProject/login.html poner la imagen pro de fondo (background)
+- [x] MK_001 Login : https://juandiegost.github.io/MokupsBFGProject/login.html
 
-- [x] MK_002 Forgot Password: https://juandiegost.github.io/MokupsBFGProject/forgot_password.html estoy dandole
+- [x] MK_002 Forgot Password: https://juandiegost.github.io/MokupsBFGProject/forgot_password.html
 
 - [X] MK_003 Agregar Entrenador: https://juandiegost.github.io/MokupsBFGProject/agregarEntrenador.html
 
@@ -29,7 +29,7 @@ LISTA M
 
 - [x] MK_009 Detalles alumnos :  dialogo dentro de MK_007
 
-- [ ] MK_010 historialMedico : 4-6
+- [ ] MK_010 historialMedico : 6
 
 - [x] MK_012 Inicio :   https://juandiegost.github.io/MokupsBFGProject/inicio.html
 
@@ -51,9 +51,4 @@ LISTA M
 
 - [x] MK_021 MK_022 Mensajes de error y confirmacion : definir
 
-- [ ] ponerle estilos a todo.
-
-
-- [x] query margen top dettalles bajerle tamaño
-- [x] margent top progresos
-- [x] cuetionario 1,2,3,4,5,6,7 responsive y arreglar boton volver
+- [x] ponerle estilos a todo.
